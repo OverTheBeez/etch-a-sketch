@@ -37,6 +37,8 @@ html {
   gap: 7.4rem;
   margin: 0rem 0rem;
   padding: 0rem 5.4rem;
+
+  margin-bottom: 9.6rem;
 }
 
 .game-background,
@@ -58,8 +60,52 @@ html {
   font-size: 1.8rem;
 }
 
-.game-background p:first-of-type {
+.game-background p:first-of-type,
+.game-info p:first-of-type {
   margin-bottom: 1.6rem;
 }
 
 /* ---- Game Section ---- */
+.game {
+  margin-bottom: 9.6rem;
+}
+.game-options h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.canvas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.canvas-box {
+  height: 10rem;
+  width: 10rem;
+  background-color: black;
+  /* border: solid 0.2rem #fff; */
+  /* margin: 0.5rem; */
+
+  flex: 1 0 11%;
+}
+
+.color-change {
+  background-color: coral;
+}
+
+/* ---- Footer Section ---- */
+.footer {
+  background-color: black;
+  text-align: center;
+  height: 7.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 2.4rem;
+}
