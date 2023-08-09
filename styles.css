@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", Calibri, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ---- General Selectors ---- */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/* ---- Header Section ---- */
+.header {
+  margin-bottom: 8.4rem;
+}
+
+.header h1 {
+  font-size: 4.4rem;
+  text-align: center;
+}
+
+/* ---- Game Info Section ---- */
+.game-info {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 7.4rem;
+  margin: 0rem 0rem;
+  padding: 0rem 5.4rem;
+}
+
+.game-background,
+.game-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.game-background h3,
+.game-rules h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.game-background p,
+.game-rules p {
+  font-size: 1.8rem;
+}
+
+.game-background p:first-of-type {
+  margin-bottom: 1.6rem;
+}
+
+/* ---- Game Section ---- */
